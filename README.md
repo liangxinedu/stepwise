@@ -41,3 +41,6 @@ To eval with pretrained_models
 ```bash
 python -u main.py --hidden_dim=256 --log_step=1000 --checkpoint_secs=30000 --load_path pretrained/tsp_2019-08-19_14-04-45/model.ckpt-18000000 --is_train=False
 ```
+
+SWTAM and ASWTAM are developed based on https://github.com/wouterkool/attention-learn-to-route
+SWPtrNet are developed based on https://github.com/devsisters/pointer-network-tensorflow
