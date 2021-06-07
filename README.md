@@ -1,5 +1,5 @@
 # Step-wise Deep Learning Models for Solving Routing Problems
-Liang Xin, Wen Song, Zhiguang Cao, and Jie Zhang. Step-wise Deep Learning Models for Solving Routing Problems.  IEEE Transactions on Industrial Informatics (TII), 2020. (In Press) [https://ieeexplore.ieee.org/document/9226142]
+Liang Xin, Wen Song, Zhiguang Cao, and Jie Zhang. Step-wise Deep Learning Models for Solving Routing Problems, IEEE Transactions on Industrial Informatics, vol. 17, no. 7, pp. 4861-4871, 2021. doi: 10.1109/TII.2020.3031409.[https://ieeexplore.ieee.org/document/9226142]
 
 To download the pretrained models and data
 ```bash
