@@ -5,8 +5,8 @@ To download the pretrained models and data
 ```bash
 python download.py;
 tar -zxvf data.tar.gz;
-cd SWTAM; tar -zxvf SWTAM_pretrained;
-cd ../SWTAM; tar -zxvf ASWTAM_pretrained;
+cd SWTAM; tar -zxvf SWTAM_pretrained.tar.gz;
+cd ../ASWTAM; tar -zxvf ASWTAM_pretrained.tar.gz;
 cd ..;
 ```
 
@@ -31,7 +31,7 @@ python run.py --graph_size 20 --baseline rollout --run_name 'tsp20_rollout' --va
 
 To eval with pretrained models
 ```bash
-python3 eval.py ../data/tsp20.pkl --model pretrained/tsp_100/epoch-99.pt --decode_strategy greedy
+python3 eval.py ../data/tsp20.pkl --model pretrained/tsp_20/epoch-99.pt --decode_strategy greedy
 ```
 
 ## Step-wise Pointer Network (SW-PtrNet)
