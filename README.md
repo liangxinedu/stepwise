@@ -44,5 +44,12 @@ To eval with pretrained_models
 python -u main.py --hidden_dim=256 --log_step=1000 --checkpoint_secs=30000 --load_path pretrained/tsp_2019-08-19_14-04-45/model.ckpt-18000000 --is_train=False
 ```
 
+Dependencies
+* Python==3.6
+* NumPy
+* PyTorch==1.4.0
+* tqdm
+* tensorboard_logger
+
 SWTAM and ASWTAM are developed based on https://github.com/wouterkool/attention-learn-to-route
 SWPtrNet are developed based on https://github.com/devsisters/pointer-network-tensorflow
